@@ -1,0 +1,34 @@
+{"address":"10.89.0.75","applicationName":"erp-purchase","clientAddress":"10.89.0.75","contentType":null,"costTime":334,"endDate":"20170721 01:38:12:875","endTime":1500615492875,"errorMessage":null,"forward":{"a":"zuul-gateway","h":"10.89.0.75:12580","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-purchase","h":"10.89.0.75:8010","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null},{"a":"erp-system","h":"10.89.0.75:8002","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null}]},{"a":"erp-system","h":"10.89.0.75:8002","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null},{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null}]}]},{"a":"erp-system","h":"10.89.0.75:8002","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null}]},{"a":"erp-system","h":"10.89.0.75:8002","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null},{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null}]}]},{"a":"erp-system","h":"10.89.0.75:8002","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null}]},{"a":"erp-system","h":"10.89.0.75:8002","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null},{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null}]}]},{"a":"erp-system","h":"10.89.0.75:8002","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null}]},{"a":"erp-system","h":"10.89.0.75:8002","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null},{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null}]}]},{"a":"erp-system","h":"10.89.0.75:8002","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null}]},{"a":"erp-system","h":"10.89.0.75:8002","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":null},{"a":"authentication-service","h":"10.89.0.75:8881","i":null},{"a":"erp-platform","h":"10.89.0.75:8007","i":[{"a":"authentication-service","h":"10.89.0.75:8881","i":null}]}]}]}]},"index":3,"method":"GET","nextServers":[{"applicationName":"authentication-service","host":"10.89.0.75","port":8881,"useable":true},{"applicationName":"erp-platform","host":"10.89.0.75","port":8007,"useable":true},{"applicationName":"erp-system","host":"10.89.0.75","port":8002,"useable":true},{"applicationName":"erp-system","host":"10.89.0.75","port":8002,"useable":true},{"applicationName":"erp-system","host":"10.89.0.75","port":8002,"useable":true},{"applicationName":"erp-system","host":"10.89.0.75","port":8002,"useable":true},{"applicationName":"erp-system","host":"10.89.0.75","port":8002,"useable":true},{"applicationName":"erp-system","host":"10.89.0.75","port":8002,"useable":true},{"applicationName":"erp-system","host":"10.89.0.75","port":8002,"useable":true},{"applicationName":"erp-system","host":"10.89.0.75","port":8002,"useable":true},{"applicationName":"erp-system","host":"10.89.0.75","port":8002,"useable":true},{"applicationName":"erp-system","host":"10.89.0.75","port":8002,"useable":true}],"parameters":null,"port":8010,"requestId":"6343C52249BD4A8985DDA9924C2A59CE","requestParameterMap":{"order":["supplierCode"],"page":["1"],"pageSize":["10"],"sort":["descend"]},"requestSource":"erp-purchase:/api/purchase/supplier:GET","requestUri":"/api/purchase/supplier","returnValue":null,"serverType":null,"stackTrace":null,"startDate":"20170721 01:38:12:541","startTime":1500615492541,"targetClass":null,"targetMethod":"public com.bqjr.erp.common.model.ResponseResult<com.github.pagehelper.PageInfo<com.bqjr.erp.purchase.api.model.PurchaseSupplier>> com.bqjr.erp.purchase.resource.PurchaseSupplierResource.search(com.bqjr.erp.purchase.api.model.PurchaseSupplier) throws com.bqjr.erp.purchase.api.exception.PurchaseSupplierException","viewName":null}
+
+
+
+proxy_buffer_size  128k;
+                proxy_buffers   32 32k;
+                proxy_busy_buffers_size 128k;
+
+
+
+
+proxy_buffer_size          128k;
+            proxy_buffers              32 32k;
+            proxy_busy_buffers_size    128k;
+
+
+http://10.89.0.75:8077/api/platform/api/plt/sysresource
+
+
+ch/qos/logback/classic/spi/ThrowableProxy
+
+
+
+<dependency>
+            <groupId>com.bqjr</groupId>
+            <artifactId>spring-cloud-config-client</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+
+	<dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>

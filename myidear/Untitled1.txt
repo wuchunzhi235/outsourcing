@@ -1,0 +1,7 @@
+http://10.89.0.75:8077/api/commoditysub/api/commodity/subsidiaries/getData/getPool
+
+
+1,把所有的问题一个一个的一次梳理
+2，git学习掌握
+3，数据库性能分析
+
